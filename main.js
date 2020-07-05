@@ -7,8 +7,8 @@ window.onload = () => {
         var target = test.getAttribute("data-gte-target");
         var offset = test.getAttribute("data-gte-offset");
 
-        console.log("target");
-        console.log("offset");
+        console.log(target);
+        console.log(offset);
 
     }
 }
