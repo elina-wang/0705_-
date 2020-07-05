@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 微軟正黑體;
+}
+
+section {
+    height:100vh;
+    background-color: lightblue;
+
+
+}
+
+section:nth-of-type(even) {
+ background-color: lightpink;    
+}
+
+#backtotop {
+    width: 55px;
+    height: 55px;
+    background: SandyBrown;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
