@@ -8,17 +8,17 @@
 </head>
 <body>
     <section>
-        <h1>頂端</h1>
-        <span id="test" data-gte-target="first" data-gte-offset="100">前往第一區</span>
-        <span>前往第二區</span>
+        <h1 id="top">頂端</h1>
+        <span data-gte-target="first" data-gte-offset="50">前往第一區</span>
+        <span data-gte-target="second" data-gte-offset="50">前往第二區</span>
     </section>
     <section>
         <h1 id="first">前往第一區</h1>
     </section>
     <section>
-        <h1>前往第二區</h1>
+        <h1 id="second">前往第二區</h1>
     </section>
-    <div id="backtotop"></div>
+    <div id="backtotop" data-gte-target="top" data-gte-offset="0"></div>
     <script src="./main.js"></script>
 </body>
 </html>
